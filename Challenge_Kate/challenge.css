@@ -8,10 +8,19 @@ body{
     display: flex;
     background-color: darkgrey;
     color:white;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
 }
 
-.links{
-    margin: 30px 0 0 35px;
+.containerone .iconname .links{
+    padding: 20px;
+}
+
+.containerone .iconname{
+    display: flex;
+    align-items:center;
 }
 
 .links a{
@@ -19,15 +28,12 @@ body{
     color: white;
 }
 
-.logos{
-    margin: 30px 0 20px 850px;
-}
-
 .containertwo{
     display: flex;
     justify-content: space-between;
     padding: 15px;
     background-color: white;
+    flex-wrap: wrap;
 }
 
 .containertwo a{
@@ -73,11 +79,13 @@ __________________________________________________________________
 
 .containerfour{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     border-color: darkgrey;
     margin-top: 3px;
     margin-bottom: 3px;
     background-color: white;
+    flex-wrap: wrap;
 }
 
 .incontfour {

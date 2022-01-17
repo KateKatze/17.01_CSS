@@ -1,0 +1,9 @@
+body{
+    font-style: 'Helvetica Black', serif;
+}
+
+.container{
+    width:25%;
+    border-color: 3px black;
+    margin: 0 auto;
+}
