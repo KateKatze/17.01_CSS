@@ -3,7 +3,53 @@ body{
 }
 
 .container{
-    width:25%;
-    border-color: 3px black;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    width:35%;
     margin: 0 auto;
+    border: black 3px;
 }
+
+table, tr, td {
+    width:100%;
+    border-collapse: collapse;
+  }
+
+tr, td{
+    border-right: none;
+    border-left: none;
+}
+
+.bold1{
+    height:6px;
+    width:100%;
+    background-color: black;
+    margin-top: -10px;;
+}
+
+.bold2{
+    height:3px;
+    width:100%;
+    background-color: black;
+}
+
+.boldunder{
+    height:1px;
+    width:100%;
+    background-color: black;
+}
+
+.item3{
+    text-align: end;
+}
+
+.bold3{
+    height:5px;
+    width:100%;
+    background-color: black;
+}
+
+
+
+
