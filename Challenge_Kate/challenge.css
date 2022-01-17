@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-family: 'Varela Round', serif;
+}
+
+.containerone{
+    display: flex;
+    background-color: darkgrey;
+    color:white;
+}
+
+.links{
+    margin: 30px 0 0 35px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+}
+
+.logos{
+    margin: 30px 0 20px 850px;
+}
+
+.containertwo{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.containertwo a{
+    text-decoration: none;
+    color: black;
+}
+
+_________________________________________________________________
+
+.containertwo .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.containertwo .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+.containertwo .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+__________________________________________________________________
+
+.containerthree{
+    display: flex;
+    z-index: 1;
+    position:static;
+}
+
+.containerthree img{
+    height: 100%;
+    width:100%;
+}
+
+.containerthree .mehrerfahren{
+    position:absolute;
+    z-index: 25;
+    color: white;
+    background-color: black;
+    margin-left: 650px;
+    margin-top: 300px;
+}
